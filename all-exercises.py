@@ -150,3 +150,20 @@
 
 
 # 19
+
+# numeros = [1,2,3,4,5,6,7,8,9,10]
+#
+# soma_dos_numeros = sum(numeros)
+#
+# print(soma_dos_numeros)
+
+
+# 20
+
+duplicados = [1, 2, 3, 3, 4, 5, 5]
+lista_sem_duplicados = []
+for numero in duplicados:
+    if numero not in lista_sem_duplicados:
+        lista_sem_duplicados.append(numero)
+
+print(lista_sem_duplicados)
