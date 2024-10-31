@@ -128,10 +128,25 @@
 
 # 17)
 
-list_original = ["algo"]
-copia = list_original
+# A diferença é que uma apenas atribui o valor e cria uma variável nova igual a antiga, enquanto a outro pega a referência da varíavel o que pode sofrer alterações
 
-copia2 =list_original.copy()
+# list_original = ["algo"]
+# copia = list_original
+#
+# copia2 =list_original.copy()
+#
+# print(copia)
+# print(copia2)
 
-print(copia)
-print(copia2)
+
+# 18
+
+# list1 = [1, 2, 3]
+# list2 = [4, 5, 6]
+#
+# lista_unida= [list1 + list2]
+#
+# print(lista_unida)
+
+
+# 19
